@@ -1,0 +1,1004 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Toret Manager\n"
+"POT-Creation-Date: 2024-02-21 13:46+0100\n"
+"PO-Revision-Date: 2024-02-21 12:32+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: toret-manager.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: includes/plugin-update-checker-master/vendor\n"
+
+#: admin/class-toret-manager-admin.php:57
+#: admin/class-toret-manager-admin.php:58
+msgid "Toret plugins"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: admin/class-toret-manager-admin.php:70
+#: admin/class-toret-manager-admin.php:71 admin/views/admin.php:11
+msgid "Toret Manager"
+msgstr ""
+
+#: admin/class-toret-manager-admin.php:79
+#: admin/class-toret-manager-admin.php:80
+msgid "Toret Manager - log"
+msgstr ""
+
+#: admin/includes/class-toret-manager-admin-save.php:144
+msgid "Credentials successfully verified."
+msgstr ""
+
+#: admin/includes/class-toret-manager-admin-save.php:147
+msgid "Validation of credentials failed!"
+msgstr ""
+
+#: admin/views/admin.php:16
+msgid "Plugin documentation"
+msgstr ""
+
+#: admin/views/admin.php:23
+msgid "API Credentials"
+msgstr ""
+
+#: admin/views/admin.php:24
+msgid "Information about the API can be obtained at "
+msgstr ""
+
+#: admin/views/admin.php:28
+msgid "API status"
+msgstr ""
+
+#: admin/views/admin.php:30
+msgid "Please verify credentials first"
+msgstr ""
+
+#: admin/views/admin.php:34
+msgid "API key"
+msgstr ""
+
+#: admin/views/admin.php:35
+msgid "User hash"
+msgstr ""
+
+#: admin/views/admin.php:36
+msgid "Web ID"
+msgstr ""
+
+#: admin/views/admin.php:37
+msgid "Notify URL"
+msgstr ""
+
+#: admin/views/admin.php:43
+msgid "Save and test connection"
+msgstr ""
+
+#: admin/views/admin.php:64 admin/views/admin.php:102
+#: includes/class-toret-manager-helper.php:604
+msgid "Orders"
+msgstr ""
+
+#: admin/views/admin.php:65 admin/views/admin.php:103
+#: includes/class-toret-manager-helper.php:605
+msgid "Products"
+msgstr ""
+
+#: admin/views/admin.php:66 admin/views/admin.php:109
+#: includes/class-toret-manager-helper.php:606
+msgid "Users"
+msgstr ""
+
+#: admin/views/admin.php:73 admin/views/admin.php:124
+#: includes/class-toret-manager-helper.php:613
+msgid "Product attributes"
+msgstr ""
+
+#: admin/views/admin.php:74 admin/views/admin.php:130
+#: includes/class-toret-manager-helper.php:614
+msgid "Comments"
+msgstr ""
+
+#: admin/views/admin.php:75 admin/views/admin.php:131
+#: includes/class-toret-manager-helper.php:615
+msgid "Reviews"
+msgstr ""
+
+#: admin/views/admin.php:81
+msgid "Synchronization settings"
+msgstr ""
+
+#: admin/views/admin.php:145
+msgid "To the Top"
+msgstr ""
+
+#: admin/views/partials/log.php:23
+msgid "Number of notifications: "
+msgstr ""
+
+#: admin/views/partials/log.php:35
+msgid "Filter by module"
+msgstr ""
+
+#: admin/views/partials/log.php:38
+msgid "All"
+msgstr ""
+
+#: admin/views/partials/log.php:64
+msgid "Delete log"
+msgstr ""
+
+#: admin/views/partials/specific/module.php:6
+msgid "Enable creation sync"
+msgstr ""
+
+#: admin/views/partials/specific/module.php:7
+msgid "Enable update sync"
+msgstr ""
+
+#: admin/views/partials/specific/module.php:8
+msgid "Enable delete sync"
+msgstr ""
+
+#: admin/views/partials/specific/module.php:10
+msgid "Sync new"
+msgstr ""
+
+#: admin/views/partials/specific/module.php:11
+msgid "Sync updates"
+msgstr ""
+
+#: admin/views/partials/specific/module.php:12
+msgid "Sync deletions"
+msgstr ""
+
+#: admin/views/partials/specific/module.php:25
+msgid "Configure automatic synchronization with "
+msgstr ""
+
+#: admin/views/partials/specific/module.php:30
+#: admin/views/partials/specific/module.php:33
+msgid "Sync Data from the Web to the Cloud"
+msgstr ""
+
+#: admin/views/partials/specific/module.php:49
+#: admin/views/partials/specific/module.php:52
+msgid "Sync Data from the Cloud to the Web"
+msgstr ""
+
+#: admin/views/partials/specific/module.php:73
+#: admin/views/partials/specific/module.php:76
+msgid "Inventory Stock Synchronization"
+msgstr ""
+
+#: admin/views/partials/specific/module.php:80
+msgid "Enable synchronization for stock quantity changes"
+msgstr ""
+
+#: admin/views/partials/specific/module.php:92
+msgid "Others"
+msgstr ""
+
+#: admin/views/partials/specific/module.php:94
+msgid "Sync Settings"
+msgstr ""
+
+#: admin/views/partials/specific/module.php:102
+msgid "EAN Custom Field"
+msgstr ""
+
+#: admin/views/partials/specific/module.php:103
+msgid "ISBN Custom Field"
+msgstr ""
+
+#: admin/views/partials/specific/module.php:104
+msgid "GTIN Custom Field"
+msgstr ""
+
+#: admin/views/partials/specific/module.php:108
+msgid "Auto-create parent items when notified"
+msgstr ""
+
+#: admin/views/partials/specific/module.php:108
+msgid "Automatically downloads and creates a parent item if it's missing."
+msgstr ""
+
+#: admin/views/partials/specific/module.php:109
+msgid "Sync related items"
+msgstr ""
+
+#: admin/views/partials/specific/module.php:109
+msgid ""
+"Automatically pairs and downloads related items such as comments, posts, and "
+"promotional products."
+msgstr ""
+
+#: admin/views/partials/specific/module.php:110
+msgid "Sync file updates"
+msgstr ""
+
+#: admin/views/partials/specific/module.php:110
+msgid ""
+"Ensures that files, including images and downloads, are updated upon "
+"notification, even if they already exist."
+msgstr ""
+
+#: admin/views/partials/specific/module.php:126
+#: admin/views/partials/specific/stock.php:49
+msgid "Save"
+msgstr ""
+
+#: admin/views/partials/specific/stock.php:7
+msgid "Stock"
+msgstr ""
+
+#: admin/views/partials/specific/stock.php:15
+msgid "Select when this content type is automatically synchronized with "
+msgstr ""
+
+#: admin/views/partials/specific/stock.php:20
+msgid "Data upload"
+msgstr ""
+
+#: admin/views/partials/specific/stock.php:22
+msgid "Sync data from the web to the cloud"
+msgstr ""
+
+#: admin/views/partials/specific/stock.php:26
+msgid "Stock quantity change"
+msgstr ""
+
+#: admin/views/partials/specific/stock.php:33
+msgid "Data download"
+msgstr ""
+
+#: admin/views/partials/specific/stock.php:35
+msgid "Sync data from the cloud to the web"
+msgstr ""
+
+#: admin/views/partials/specific/stock.php:39
+msgid "Notify - Stock quantity change"
+msgstr ""
+
+#: includes/class-toret-manager-draw-functions.php:52
+msgid "(incl. VAT)"
+msgstr ""
+
+#: includes/class-toret-manager-draw-functions.php:54
+msgid "(excl. VAT)"
+msgstr ""
+
+#: includes/class-toret-manager-draw-functions.php:258
+msgid "Select all"
+msgstr ""
+
+#: includes/class-toret-manager-draw-functions.php:348
+msgid "Synchronize all"
+msgstr ""
+
+#: includes/class-toret-manager-draw-functions.php:349
+msgid "Sync selected metadata fields"
+msgstr ""
+
+#: includes/class-toret-manager-draw-functions.php:382
+msgid "Enable all"
+msgstr ""
+
+#: includes/class-toret-manager-draw-functions.php:383
+msgid "Synchronize selected"
+msgstr ""
+
+#: includes/class-toret-manager-draw-functions.php:418
+msgid "Synchronize"
+msgstr ""
+
+#: includes/class-toret-manager-log.php:94
+msgid "Log is empty"
+msgstr ""
+
+#: includes/class-toret-manager-log.php:153
+msgid "Date"
+msgstr ""
+
+#: includes/class-toret-manager-log.php:167
+msgid "Date: "
+msgstr ""
+
+#: includes/class-toret-manager-log.php:167
+msgid "Module: "
+msgstr ""
+
+#: includes/class-toret-manager-log.php:167
+msgid "Context: "
+msgstr ""
+
+#: includes/curl_library/toret-manager-api-calls.php:94
+msgid "API call response"
+msgstr ""
+
+#: includes/curl_library/toret-manager-api-calls.php:112
+msgid "API call failed with status:  "
+msgstr ""
+
+#: includes/curl_library/toret-manager-api-calls.php:112
+msgid " and message: "
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:48
+msgid "Post ID"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:49
+msgid "Author ID"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:50
+msgid "Author Internal ID"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:51
+msgid "Title"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:52
+msgid "Post Status"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:53
+msgid "Post Type"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:54
+msgid "Edit URL"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:55
+msgid "Parent ID"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:56
+msgid "Parent Internal ID"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:57
+msgid "Excerpt"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:58
+msgid "Content"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:59
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:60
+msgid "URL"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:61
+msgid "Comment Status"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:62
+msgid "Comment Count"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:63
+msgid "Post Password"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:64
+msgid "Created Date"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:65
+msgid "Edited Date"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:66
+msgid "Category"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:67
+msgid "Tags"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:68
+msgid "Meta"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:69
+msgid "Comment IDs"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:70
+msgid "Post Internal ID"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:71
+msgid "Comment Author"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:72
+msgid "Comment Author Email"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:73
+msgid "Comment Content"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:74
+msgid "Comment Type"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:75
+msgid "User ID"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:76
+msgid "User Login"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:77
+msgid "User Email"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:78
+msgid "Capabilities"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:79
+msgid "User Nice Name"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:80
+msgid "User First Name"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:81
+msgid "User Last Name"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:82
+msgid "User Display Name"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:83
+msgid "User URL"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:84
+msgid "User Registered"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:85
+msgid "Locale"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:86
+msgid "Billing First Name"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:87
+msgid "Billing Last Name"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:88
+msgid "Billing Address 1"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:89
+msgid "Billing Address 2"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:90
+msgid "Billing City"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:91
+msgid "Billing Zip"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:92
+msgid "Billing Country"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:93
+msgid "Billing Email"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:94
+msgid "Billing Phone"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:95
+msgid "Shipping First Name"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:96
+msgid "Shipping Last Name"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:97
+#: includes/general/class-toret-manager-i18n.php:127
+msgid "Shipping Address 1"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:98
+msgid "Shipping Address 2"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:99
+msgid "Shipping City"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:100
+msgid "Shipping Zip"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:101
+msgid "Shipping Country"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:102
+msgid "Shipping Email"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:103
+msgid "Shipping Phone"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:104
+msgid "Order ID"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:105
+msgid "Order Status"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:106
+msgid "Order Title"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:107
+msgid "Order Comment Status"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:108
+msgid "Order Password"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:109
+msgid "Order Name"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:110
+msgid "Order Comments Count"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:111
+msgid "Order Customer ID"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:112
+msgid "Customer Internal ID"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:113
+msgid "Order Download Permissions"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:114
+msgid "Order Stock Reduced"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:115
+msgid "Order Billing Country"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:116
+msgid "Order Shipping Country"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:117
+msgid "Order Currency"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:118
+msgid "Order Cart Discount"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:119
+msgid "Order Cart Discount Tax"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:120
+msgid "Order Shipping"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:121
+msgid "Order Shipping Tax"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:122
+msgid "Order Tax"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:123
+msgid "Order Total"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:124
+msgid "Price Included Tax"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:125
+msgid "Billing Address Index"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:126
+msgid "Shipping Address Index"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:128
+msgid "Payment Method"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:129
+msgid "Payment Method Title"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:130
+msgid "Internal ID"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:131
+msgid "Category ID"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:132
+msgid "Type"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:133
+msgid "Slug"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:134
+msgid "Description"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:135
+msgid "Product ID"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:136
+msgid "Product Type"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:137
+msgid "Price"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:138
+msgid "Price VAT"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:139
+msgid "Currency"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:140
+msgid "VAT"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:141
+msgid "Stock Status"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:142
+msgid "Short Description"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:143
+msgid "Manage Stock"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:144
+msgid "SKU"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:145
+msgid "Sale Price"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:146
+msgid "Sale Price VAT"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:147
+msgid "Sale From Date"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:148
+msgid "Sale To Date"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:149
+msgid "Total Sales"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:150
+msgid "Tax Status"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:151
+msgid "Tax Class"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:152
+msgid "Shipping Class"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:153
+msgid "Backorders"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:154
+msgid "Backorders Notify"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:155
+msgid "Low Stock Amount"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:156
+msgid "Sold Individually"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:157
+msgid "Virtual"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:158
+msgid "Downloadable"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:159
+msgid "Files"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:160
+msgid "Download Limit"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:161
+msgid "Download Expiry"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:162
+msgid "Product Image Gallery"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:163
+msgid "Allow Review"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:164
+msgid "Average Rating"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:165
+msgid "Rating Count"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:166
+msgid "Review Count"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:167
+msgid "Visibility"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:168
+msgid "EAN"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:169
+msgid "ISBN"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:170
+msgid "GTIN"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:171
+msgid "Weight"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:172
+msgid "Length"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:173
+msgid "Width"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:174
+msgid "Height"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:175
+msgid "Weight Unit"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:176
+msgid "Dimension Unit"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:177
+msgid "Attributes"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:178
+msgid "Purchase Note"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:179
+msgid "Menu Order"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:180
+msgid "Cross Sell"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:181
+msgid "Cross Sell Internal"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:182
+msgid "Up Sell"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:183
+msgid "Up Sell Internal"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:184
+msgid "Order Download Permission"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:185
+msgid "Comment Author URL"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:186
+msgid "Comment Date"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:187
+msgid "Comment Approved"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:188
+msgid "Comment User ID"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:189
+msgid "Product Rating"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:190
+msgid "Verified"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:191
+msgid "Sync Stock from Web to Cloud"
+msgstr ""
+
+#: includes/general/class-toret-manager-i18n.php:192
+msgid "Sync Stock from Cloud to Web"
+msgstr ""
+
+#: includes/modules/class-toret-manager-module-general.php:105
+msgid "Item updated"
+msgstr ""
+
+#: includes/modules/class-toret-manager-module-general.php:105
+#: includes/modules/class-toret-manager-module-general.php:129
+msgid "Item created"
+msgstr ""
+
+#: includes/modules/class-toret-manager-module-general.php:117
+msgid "Failed to update item. Trying to create it."
+msgstr ""
+
+#: includes/modules/class-toret-manager-module-general.php:140
+msgid "Failed to create item after failed updated."
+msgstr ""
+
+#: includes/modules/class-toret-manager-module-general.php:151
+msgid "Failed to update item."
+msgstr ""
+
+#: includes/modules/class-toret-manager-module-general.php:151
+msgid "Failed to create item."
+msgstr ""
+
+#: includes/modules/class-toret-manager-module-stock.php:55
+msgid "Stock set"
+msgstr ""
+
+#: includes/modules/class-toret-manager-module-stock.php:62
+msgid "Failed to set stock"
+msgstr ""
+
+#: includes/plugin-update-checker-master/Puc/v5p1/Plugin/Ui.php:56
+msgid "View details"
+msgstr ""
+
+#: includes/plugin-update-checker-master/Puc/v5p1/Plugin/Ui.php:79
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: includes/plugin-update-checker-master/Puc/v5p1/Plugin/Ui.php:130
+msgid "Check for updates"
+msgstr ""
+
+#: includes/plugin-update-checker-master/Puc/v5p1/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: includes/plugin-update-checker-master/Puc/v5p1/Plugin/Ui.php:219
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: includes/plugin-update-checker-master/Puc/v5p1/Plugin/Ui.php:221
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#: includes/plugin-update-checker-master/Puc/v5p1/Plugin/Ui.php:227
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: includes/plugin-update-checker-master/Puc/v5p1/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""
+
+#: includes/toret-manager-notify.php:19
+msgid "Notification"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://toret.net"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Connects WordPress and WooCommerce website with Toret.net."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Toret"
+msgstr ""

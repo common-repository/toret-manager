@@ -1,0 +1,1495 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Toret Manager\n"
+"POT-Creation-Date: 2024-10-29 10:13+0100\n"
+"PO-Revision-Date: 2024-10-29 10:29+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: toret-manager.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: includes/plugin-update-checker-master/vendor\n"
+
+#: admin/class-toret-manager-admin.php:61
+#: admin/class-toret-manager-admin.php:62
+msgid "Toret plugins"
+msgstr "Toret plugins"
+
+#. Plugin Name of the plugin/theme
+#: admin/class-toret-manager-admin.php:74
+#: admin/class-toret-manager-admin.php:75
+#: admin/includes/modules/class-toret-manager-details-order.php:49
+#: admin/includes/modules/class-toret-manager-details-post.php:36
+#: admin/includes/modules/class-toret-manager-details-user.php:37
+#: admin/views/admin.php:14
+msgid "Toret Manager"
+msgstr "Toret Manager"
+
+#: admin/class-toret-manager-admin.php:83
+#: admin/class-toret-manager-admin.php:84
+msgid "Toret Manager - log"
+msgstr "Toret Manager - log"
+
+#: admin/class-toret-manager-admin.php:93
+#: admin/class-toret-manager-admin.php:94
+msgid "Toret Manager - tools"
+msgstr "Toret Manager - nástroje"
+
+#: admin/class-toret-manager-admin.php:238
+msgid "Settings"
+msgstr "Nastavení"
+
+#: admin/class-toret-manager-admin.php:254
+msgid "Documentation"
+msgstr "Dokumentace"
+
+#: admin/class-toret-manager-admin.php:255
+msgid "Support"
+msgstr "Podpora"
+
+#: admin/includes/class-toret-manager-admin-save.php:155
+msgid "Credentials successfully verified."
+msgstr "Přihlašovací údaje byly úspěšně ověřeny."
+
+#: admin/includes/class-toret-manager-admin-save.php:158
+msgid "Validation of credentials failed!"
+msgstr "Přihlášení selhalo!"
+
+#: admin/includes/class-toret-manager-initial-sync.php:59
+msgid "Process"
+msgstr "Zpracování"
+
+#: admin/includes/class-toret-manager-initial-sync.php:66
+msgid "All Users"
+msgstr "Všichni uživatelé"
+
+#: admin/includes/class-toret-manager-initial-sync.php:73
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: admin/includes/initial_sync/class-example-process.php:743
+#: admin/includes/initial_sync/class-toret-manager-sync-process.php:751
+#: includes/libraries/vendor/deliciousbrains/wp-background-processing/classes/wp-background-process.php:685
+msgid "Every Minute"
+msgstr "Každou minutu"
+
+#. translators: %s: minute interval
+#: admin/includes/initial_sync/class-example-process.php:745
+#: admin/includes/initial_sync/class-toret-manager-sync-process.php:754
+#: includes/libraries/vendor/deliciousbrains/wp-background-processing/classes/wp-background-process.php:687
+#, php-format
+msgid "Every %d Minutes"
+msgstr "Každých %d minut"
+
+#: admin/includes/initial_sync/class-toret-manager-initial-sync.php:45
+msgid "Toret Manager: Synchronization in progress. Synchronized "
+msgstr "Toret Manager: Synchronizace probíhá. Synchronizováno "
+
+#: admin/includes/initial_sync/class-toret-manager-initial-sync.php:45
+msgid " items from "
+msgstr " položek z "
+
+#: admin/includes/modules/class-toret-manager-details-order.php:79
+#: admin/includes/modules/class-toret-manager-details-product.php:56
+#: admin/includes/modules/class-toret-manager-details-term.php:38
+#: admin/includes/modules/class-toret-manager-details-term.php:71
+#: admin/includes/modules/class-toret-manager-details-user.php:41
+msgid "Toret Manager Internal ID"
+msgstr "Toret Manager Interní ID"
+
+#: admin/includes/modules/class-toret-manager-details-order.php:82
+#: admin/includes/modules/class-toret-manager-details-post.php:66
+#: admin/includes/modules/class-toret-manager-details-product.php:59
+#: admin/includes/modules/class-toret-manager-details-product.php:101
+#: admin/includes/modules/class-toret-manager-details-term.php:41
+#: admin/includes/modules/class-toret-manager-details-term.php:76
+msgid "This is the internal ID in Toret Manager."
+msgstr "Jedná se o interní ID produktu v pluginu Toret Manager."
+
+#: admin/includes/modules/class-toret-manager-details-order.php:87
+#: admin/includes/modules/class-toret-manager-details-post.php:70
+#: admin/includes/modules/class-toret-manager-details-product.php:64
+#: admin/includes/modules/class-toret-manager-details-product.php:107
+#: admin/includes/modules/class-toret-manager-details-term.php:79
+#: admin/includes/modules/class-toret-manager-details-user.php:54
+msgid "Save Internal ID"
+msgstr "Uložit interní ID"
+
+#: admin/includes/modules/class-toret-manager-details-order.php:94
+#: admin/includes/modules/class-toret-manager-details-post.php:77
+#: admin/includes/modules/class-toret-manager-details-product.php:70
+#: admin/includes/modules/class-toret-manager-details-product.php:114
+msgid "Exclude from synchronization"
+msgstr "Vyloučit ze synchronizace"
+
+#: admin/includes/modules/class-toret-manager-details-order.php:96
+msgid "Exclude order from synchronization."
+msgstr "Vyloučit objednávku ze synchronizace."
+
+#: admin/includes/modules/class-toret-manager-details-post.php:79
+msgid "Exclude post from synchronization."
+msgstr "Vyloučit příspěvek ze synchronizace."
+
+#: admin/includes/modules/class-toret-manager-details-product.php:72
+msgid "Disable product from synchronization."
+msgstr "Zakázat synchronizaci produktu."
+
+#: admin/includes/modules/class-toret-manager-details-product.php:116
+msgid "Exclude product variation from synchronization."
+msgstr "Zakázat synchronizaci produktu."
+
+#: admin/includes/modules/class-toret-manager-details-term.php:44
+#: admin/includes/modules/class-toret-manager-details-term.php:84
+#: admin/includes/modules/class-toret-manager-details-user.php:59
+msgid "Toret Manager Synchronization"
+msgstr "Toret Manager synchronizace"
+
+#: admin/includes/modules/class-toret-manager-details-term.php:47
+#: admin/includes/modules/class-toret-manager-details-term.php:89
+msgid "Exclude items with term from synchronization."
+msgstr "Vyloučit položky s termínem ze synchronizace."
+
+#: admin/includes/modules/class-toret-manager-details-user.php:65
+msgid "Exclude user from synchronization."
+msgstr "Vyloučit uživatele ze synchronizace."
+
+#: admin/views/admin.php:19
+msgid "Plugin documentation"
+msgstr "Dokumentace pluginu"
+
+#: admin/views/admin.php:27
+msgid "API Credentials"
+msgstr "Přihlašovací údaje k API"
+
+#: admin/views/admin.php:28
+msgid "Information about the API can be obtained at "
+msgstr "Informace o API lze získat na "
+
+#: admin/views/admin.php:28
+msgid "app.toret.net → Websites"
+msgstr "app.toret.net → Weby"
+
+#: admin/views/admin.php:32
+msgid "API status"
+msgstr "Stav API"
+
+#: admin/views/admin.php:34
+msgid "Please verify credentials first"
+msgstr "Nejprve prosím ověřte své přihlašovací údaje"
+
+#: admin/views/admin.php:38
+msgid "Notify URL"
+msgstr "Notifikační URL"
+
+#: admin/views/admin.php:39
+msgid "Process notification cron URL"
+msgstr "Použít cron URL pro zpracování notifikací"
+
+#: admin/views/admin.php:41
+msgid "Use WP scheduler for notify postprocessing"
+msgstr "Pro zpracování notifikace použít WP scheduler"
+
+#: admin/views/admin.php:45
+msgid "User hash"
+msgstr "Uživatelský hash"
+
+#: admin/views/admin.php:46
+msgid "API key"
+msgstr "API klíč"
+
+#: admin/views/admin.php:47
+msgid "Web ID"
+msgstr "Web ID"
+
+#: admin/views/admin.php:53
+msgid "Save and test connection"
+msgstr "Uložit a otestovat připojení"
+
+#: admin/views/admin.php:70 admin/views/partials/specific/tools.php:7
+msgid "Tools"
+msgstr "Nástroje"
+
+#: admin/views/admin.php:75
+msgid "Synchronization settings"
+msgstr "Nastavení synchronizace"
+
+#: admin/views/admin.php:96 includes/class-toret-manager-helper.php:697
+#: includes/functions/class-toret-manager-helper-modules.php:231
+msgid "Orders"
+msgstr "Objednávky"
+
+#: admin/views/admin.php:97 includes/class-toret-manager-helper.php:698
+#: includes/functions/class-toret-manager-helper-modules.php:234
+msgid "Products"
+msgstr "Produkty"
+
+#: admin/views/admin.php:103 includes/class-toret-manager-helper.php:699
+#: includes/functions/class-toret-manager-helper-modules.php:237
+msgid "Users"
+msgstr "Uživatelé"
+
+#: admin/views/admin.php:127 includes/class-toret-manager-helper.php:707
+#: includes/functions/class-toret-manager-helper-modules.php:249
+msgid "Comments"
+msgstr "Komentáře"
+
+#: admin/views/admin.php:128 includes/class-toret-manager-helper.php:708
+#: includes/functions/class-toret-manager-helper-modules.php:250
+msgid "Reviews"
+msgstr "Hodnocení"
+
+#: admin/views/admin.php:138
+msgid "To the Top"
+msgstr "Nahoru"
+
+#: admin/views/partials/log.php:42
+msgid "Filter by module"
+msgstr "Filtrování podle modulu"
+
+#: admin/views/partials/log.php:45
+msgid "All"
+msgstr "Vše"
+
+#: admin/views/partials/log.php:74
+msgid "Delete log"
+msgstr "Smazat log"
+
+#: admin/views/partials/specific/clear.php:19
+msgid "Clear imported as associated items"
+msgstr "Vymazat importované přidružené položky"
+
+#: admin/views/partials/specific/clear.php:22
+msgid "Clear imported items"
+msgstr "Vymazat importované položky"
+
+#: admin/views/partials/specific/clear.php:27
+#: admin/views/partials/specific/clear.php:85
+#: admin/views/partials/specific/first_sync.php:28
+#: includes/general/class-toret-manager-i18n.php:115
+msgid "Type"
+msgstr "Typ"
+
+#: admin/views/partials/specific/clear.php:28
+msgid "Imported / Total"
+msgstr "Importováno / Celkem"
+
+#: admin/views/partials/specific/clear.php:29
+#: admin/views/partials/specific/clear.php:87
+#: admin/views/partials/specific/first_sync.php:30
+msgid "Action"
+msgstr "Akce"
+
+#: admin/views/partials/specific/clear.php:58
+msgid "Delete"
+msgstr "Smazat"
+
+#: admin/views/partials/specific/clear.php:77
+#: admin/views/partials/specific/clear.php:80
+msgid "Clear items"
+msgstr "Vymazat položky"
+
+#: admin/views/partials/specific/clear.php:86
+msgid "Has internal ID / Total"
+msgstr "Má interní ID / Celkem"
+
+#: admin/views/partials/specific/clear.php:113
+msgid "Clear Internal ID"
+msgstr "Vymazat interní ID"
+
+#: admin/views/partials/specific/clear.php:115
+msgid "Delete items"
+msgstr "Odstranit položky"
+
+#: admin/views/partials/specific/clear.php:125
+msgid "All items"
+msgstr "Všechny položky"
+
+#: admin/views/partials/specific/clear.php:129
+msgid "Clear All Internal IDs"
+msgstr "Vymazat všechny interní ID"
+
+#: admin/views/partials/specific/clear.php:130
+msgid "Delete All"
+msgstr "Smazat vše"
+
+#: admin/views/partials/specific/clear.php:131
+msgid "Delete Product Attributes"
+msgstr "Odstranit vlastnosti produktu"
+
+#: admin/views/partials/specific/clear.php:132
+msgid "Enable All Up"
+msgstr "Povolit vše do cloudu"
+
+#: admin/views/partials/specific/clear.php:133
+msgid "Enable All Down"
+msgstr "Povolit vše z cloudu"
+
+#: admin/views/partials/specific/clear.php:134
+msgid "Disable All Up"
+msgstr "Zakázat vše do cloudu"
+
+#: admin/views/partials/specific/clear.php:135
+msgid "Disable All Down"
+msgstr "Zakázat vše z cloudu"
+
+#: admin/views/partials/specific/first_sync.php:20
+#: admin/views/partials/specific/first_sync.php:23
+msgid "Initial Synchronization"
+msgstr "Počáteční synchronizace"
+
+#: admin/views/partials/specific/first_sync.php:29
+msgid "Synchronized / Total"
+msgstr "Synchronizováno / Celkem"
+
+#: admin/views/partials/specific/first_sync.php:36
+msgid "No active modules"
+msgstr "Nejsou aktivní žádné moduly"
+
+#: admin/views/partials/specific/first_sync.php:85
+msgid "Cancel Synchronization"
+msgstr "Zrušit synchronizaci"
+
+#: admin/views/partials/specific/first_sync.php:89
+msgid "Start Synchronization"
+msgstr "Spustit synchronizaci"
+
+#: admin/views/partials/specific/module.php:18
+msgid "Enable creation sync"
+msgstr "Povolit synchronizaci při vytvoření"
+
+#: admin/views/partials/specific/module.php:19
+msgid "Enable update sync"
+msgstr "Povolit synchronizaci při aktualizaci"
+
+#: admin/views/partials/specific/module.php:20
+msgid "Enable delete sync"
+msgstr "Povolit synchronizaci při smazání"
+
+#: admin/views/partials/specific/module.php:22
+msgid "Sync new"
+msgstr "Synchronizovat nové"
+
+#: admin/views/partials/specific/module.php:23
+msgid "Sync updates"
+msgstr "Synchronizovat aktualizace"
+
+#: admin/views/partials/specific/module.php:24
+msgid "Sync deletions"
+msgstr "Synchronizovat smazání"
+
+#: admin/views/partials/specific/module.php:41
+msgid "Configure automatic synchronization with "
+msgstr "Nastavení automatické synchronizace s "
+
+#: admin/views/partials/specific/module.php:46
+#: admin/views/partials/specific/module.php:49
+msgid "Sync Data from the Web to the Cloud"
+msgstr "Synchronizace dat z webu do cloudu"
+
+#: admin/views/partials/specific/module.php:65
+#: admin/views/partials/specific/module.php:68
+msgid "Sync Data from the Cloud to the Web"
+msgstr "Synchronizace dat z cloudu na web"
+
+#: admin/views/partials/specific/module.php:79
+msgid "Status of imported item"
+msgstr "Stav importované položky"
+
+#: admin/views/partials/specific/module.php:93
+#: admin/views/partials/specific/module.php:96
+msgid "Inventory Stock Synchronization"
+msgstr "Synchronizace skladových zásob"
+
+#: admin/views/partials/specific/module.php:100
+msgid "Enable synchronization for stock quantity changes"
+msgstr "Zapnout synchronizaci změn množství skladu"
+
+#: admin/views/partials/specific/module.php:112
+msgid "Others"
+msgstr "Ostatní"
+
+#: admin/views/partials/specific/module.php:114
+msgid "Sync Settings"
+msgstr "Nastavení synchronizace"
+
+#: admin/views/partials/specific/module.php:122
+msgid "Additionally try to pair product by SKU if Toret ID is not found"
+msgstr ""
+"Pokud není nalezeno Toret ID, zkusit spárovat produkt podle katalogového "
+"čísla"
+
+#: admin/views/partials/specific/module.php:123
+msgid "EAN Custom Field"
+msgstr "Vlastní pole EAN"
+
+#: admin/views/partials/specific/module.php:124
+msgid "ISBN Custom Field"
+msgstr "Vlastní pole ISBN"
+
+#: admin/views/partials/specific/module.php:125
+msgid "GTIN Custom Field"
+msgstr "Vlastní pole GTIN"
+
+#: admin/views/partials/specific/module.php:129
+msgid "Auto-create parent items when notified"
+msgstr "Automaticky vytvářet nadřazené položky při notifikaci"
+
+#: admin/views/partials/specific/module.php:129
+msgid "Automatically downloads and creates a parent item if it's missing."
+msgstr "Automaticky stahuje a vytváří nadřazenou položku, pokud chybí."
+
+#: admin/views/partials/specific/module.php:132
+msgid "Synchronise related items"
+msgstr "Synchronizovat související položky"
+
+#: admin/views/partials/specific/module.php:132
+msgid ""
+"Automatically synchronises other related items. These can be categories, "
+"tags or comments, for example."
+msgstr ""
+"Automaticky synchronizuje další související položky. Může se jednat "
+"například o rubriky, štítky nebo komentáře."
+
+#: admin/views/partials/specific/module.php:133
+msgid "Synchronise files when updating"
+msgstr "Při aktualizaci synchronizovat soubory"
+
+#: admin/views/partials/specific/module.php:133
+msgid ""
+"Ensures that files, including images and other attached files in the "
+"content, are re-downloaded from the source site when updating."
+msgstr ""
+"Zajišťuje, že soubory, včetně obrázků a jiných přiložených souborů v obsahu, "
+"budou při aktualizaci znovu staženy ze zdrojového webu."
+
+#: admin/views/partials/specific/stock.php:7
+msgid "Stock"
+msgstr "Sklad"
+
+#: admin/views/partials/specific/stock.php:15
+msgid "Select when this content type is automatically synchronized with "
+msgstr "Vyberte, kdy má být tento typ obsahu automaticky synchronizován s "
+
+#: admin/views/partials/specific/stock.php:20
+msgid "Data upload"
+msgstr "Datum nahrání"
+
+#: admin/views/partials/specific/stock.php:22
+msgid "Sync data from the web to the cloud"
+msgstr "Synchronizovat data z webu do cloudu"
+
+#: admin/views/partials/specific/stock.php:26
+msgid "Stock quantity change"
+msgstr "Změna množství skladu"
+
+#: admin/views/partials/specific/stock.php:33
+msgid "Data download"
+msgstr "Datum stažení"
+
+#: admin/views/partials/specific/stock.php:35
+msgid "Sync data from the cloud to the web"
+msgstr "Synchronizovat data z cloudu na web"
+
+#: admin/views/partials/specific/stock.php:39
+msgid "Notify - Stock quantity change"
+msgstr "Notifikace - změna skladového množství"
+
+#: admin/views/partials/specific/stock.php:49
+msgid "Save"
+msgstr "Uložit"
+
+#: includes/api/class-toret-manager-api-calls.php:56
+#: includes/api/toret-manager-api-calls.php:69
+#: includes/curl_library/toret-manager-api-calls.php:28
+#: includes/curl_library/toret-manager-api-calls.php:83
+msgid "API call request"
+msgstr "Požadavek na volání API"
+
+#: includes/api/class-toret-manager-api-calls.php:95
+#: includes/curl_library/toret-manager-api-calls.php:119
+msgid "API call response"
+msgstr "Odpověď na volání API"
+
+#: includes/api/class-toret-manager-api-calls.php:105
+#: includes/api/toret-manager-api-calls.php:121
+#: includes/curl_library/toret-manager-api-calls.php:129
+msgid "API call failed with http code:  "
+msgstr "Volání API selhalo s kódem http:  "
+
+#: includes/api/class-toret-manager-api-calls.php:133
+#: includes/api/toret-manager-api-calls.php:146
+#: includes/curl_library/toret-manager-api-calls.php:154
+msgid "API call failed with status:  "
+msgstr "Volání API selhalo se stavem: "
+
+#: includes/api/class-toret-manager-api-calls.php:133
+#: includes/api/toret-manager-api-calls.php:146
+#: includes/curl_library/toret-manager-api-calls.php:154
+msgid " and message: "
+msgstr " a zpráva: "
+
+#: includes/api/toret-manager-notify-endpoints.php:35
+#: includes/toret-manager-notify.php:30
+msgid "Notification"
+msgstr "Oznámení"
+
+#: includes/class-toret-manager-draw-functions.php:208
+#: includes/functions/class-toret-manager-draw.php:190
+msgid "Default"
+msgstr "Výchozí"
+
+#: includes/class-toret-manager-draw-functions.php:259
+#: includes/functions/class-toret-manager-draw.php:248
+msgid "Select all"
+msgstr "Vybrat vše"
+
+#: includes/class-toret-manager-draw-functions.php:347
+#: includes/functions/class-toret-manager-draw.php:347
+msgid "Synchronize all"
+msgstr "Synchronizovat vše"
+
+#: includes/class-toret-manager-draw-functions.php:348
+#: includes/functions/class-toret-manager-draw.php:348
+msgid "Sync selected metadata fields"
+msgstr "Synchronizovat vybraná metadata"
+
+#: includes/class-toret-manager-draw-functions.php:380
+#: includes/functions/class-toret-manager-draw.php:386
+msgid "Enable all"
+msgstr "Vybrat vše"
+
+#: includes/class-toret-manager-draw-functions.php:381
+#: includes/functions/class-toret-manager-draw.php:387
+msgid "Synchronize selected"
+msgstr "Synchronizovat vybrané"
+
+#: includes/class-toret-manager-draw-functions.php:414
+#: includes/functions/class-toret-manager-draw.php:432
+msgid "Synchronize"
+msgstr "Synchronizovat"
+
+#: includes/class-toret-manager-helper.php:706
+msgid "Product attributes"
+msgstr "Atributy produktu"
+
+#: includes/class-toret-manager-log.php:107
+msgid "Log is empty"
+msgstr "Log je prázdný"
+
+#: includes/class-toret-manager-log.php:183
+msgid "Date: "
+msgstr "Datum: "
+
+#: includes/class-toret-manager-log.php:183
+msgid "Module: "
+msgstr "Modul: "
+
+#: includes/class-toret-manager-log.php:183
+msgid "Context: "
+msgstr "Kontext: "
+
+#: includes/functions/class-toret-manager-helper.php:203
+#: includes/functions/class-toret-manager-helper.php:217
+msgid "Failed to download file: "
+msgstr "Soubor se nepodařilo stáhnout: "
+
+#: includes/functions/class-toret-manager-helper.php:218
+msgid "Not send by remote server"
+msgstr "Neodesláno vzdáleným serverem"
+
+#: includes/functions/class-toret-manager-helper.php:261
+msgid "Attachment created for: "
+msgstr "Příloha vytvořena pro: "
+
+#: includes/functions/class-toret-manager-helper.php:262
+msgid "Attachment created: "
+msgstr "Vytvořená příloha: "
+
+#: includes/functions/class-toret-manager-helper.php:273
+msgid "Failed to create attachment for: "
+msgstr "Nepodařilo se vytvořit přílohu pro: "
+
+#: includes/general/class-toret-manager-i18n.php:31
+msgid "Post ID"
+msgstr "ID příspěvku"
+
+#: includes/general/class-toret-manager-i18n.php:32
+msgid "Author ID"
+msgstr "ID autora"
+
+#: includes/general/class-toret-manager-i18n.php:33
+msgid "Author Internal ID"
+msgstr "Interní ID autora"
+
+#: includes/general/class-toret-manager-i18n.php:34
+msgid "Title"
+msgstr "Název"
+
+#: includes/general/class-toret-manager-i18n.php:35
+msgid "Post Status"
+msgstr "Status příspěvku"
+
+#: includes/general/class-toret-manager-i18n.php:36
+msgid "Post Type"
+msgstr "Typ příspěvku"
+
+#: includes/general/class-toret-manager-i18n.php:37
+msgid "Edit URL"
+msgstr "Upravit URL"
+
+#: includes/general/class-toret-manager-i18n.php:38
+msgid "Parent ID"
+msgstr "Rodičovské ID"
+
+#: includes/general/class-toret-manager-i18n.php:39
+msgid "Parent Internal ID"
+msgstr "Interní rodičovské ID"
+
+#: includes/general/class-toret-manager-i18n.php:40
+msgid "Excerpt"
+msgstr "Stručný výpis příspěvku"
+
+#: includes/general/class-toret-manager-i18n.php:41
+msgid "Content"
+msgstr "Obsah"
+
+#: includes/general/class-toret-manager-i18n.php:42
+msgid "Thumbnail"
+msgstr "Náhledový obrázek"
+
+#: includes/general/class-toret-manager-i18n.php:43
+msgid "URL"
+msgstr "URL"
+
+#: includes/general/class-toret-manager-i18n.php:44
+msgid "Comment Status"
+msgstr "Stav komentáře"
+
+#: includes/general/class-toret-manager-i18n.php:45
+msgid "Comment Count"
+msgstr "Počet komentářů"
+
+#: includes/general/class-toret-manager-i18n.php:46
+msgid "Post Password"
+msgstr "Heslo příspěvku"
+
+#: includes/general/class-toret-manager-i18n.php:47
+msgid "Created Date"
+msgstr "Datum vytvoření"
+
+#: includes/general/class-toret-manager-i18n.php:48
+msgid "Edited Date"
+msgstr "Datum aktualizace"
+
+#: includes/general/class-toret-manager-i18n.php:49
+msgid "Categories"
+msgstr "Kategorie"
+
+#: includes/general/class-toret-manager-i18n.php:50
+msgid "Tags"
+msgstr "Štítky"
+
+#: includes/general/class-toret-manager-i18n.php:51
+msgid "Meta"
+msgstr "Meta"
+
+#: includes/general/class-toret-manager-i18n.php:52
+msgid "Comment IDs"
+msgstr "ID komentářů"
+
+#: includes/general/class-toret-manager-i18n.php:53
+msgid "Post Internal ID"
+msgstr "Interní ID příspěvku"
+
+#: includes/general/class-toret-manager-i18n.php:54
+msgid "Comment Author"
+msgstr "Autor komentáře"
+
+#: includes/general/class-toret-manager-i18n.php:55
+msgid "Comment Author Email"
+msgstr "E-mail autora komentáře"
+
+#: includes/general/class-toret-manager-i18n.php:56
+msgid "Comment Content"
+msgstr "Obsah komentáře"
+
+#: includes/general/class-toret-manager-i18n.php:57
+msgid "Comment Type"
+msgstr "Typ komentáře"
+
+#: includes/general/class-toret-manager-i18n.php:58
+msgid "User ID"
+msgstr "ID uživatele"
+
+#: includes/general/class-toret-manager-i18n.php:59
+msgid "User Login"
+msgstr "Přihlášení uživatele"
+
+#: includes/general/class-toret-manager-i18n.php:60
+msgid "User Email"
+msgstr "Uživatelský e-mail"
+
+#: includes/general/class-toret-manager-i18n.php:61
+msgid "Capabilities"
+msgstr "Funkce"
+
+#: includes/general/class-toret-manager-i18n.php:62
+msgid "User Nice Name"
+msgstr "Přezdívka uživatele"
+
+#: includes/general/class-toret-manager-i18n.php:63
+msgid "User First Name"
+msgstr "Křestní jméno uživatele"
+
+#: includes/general/class-toret-manager-i18n.php:64
+msgid "User Last Name"
+msgstr "Příjmení uživatele"
+
+#: includes/general/class-toret-manager-i18n.php:65
+msgid "User Display Name"
+msgstr "Zobrazené jméno uživatele"
+
+#: includes/general/class-toret-manager-i18n.php:66
+msgid "User URL"
+msgstr "URL uživatele"
+
+#: includes/general/class-toret-manager-i18n.php:67
+msgid "User Registered"
+msgstr "Registrovaný uživatel"
+
+#: includes/general/class-toret-manager-i18n.php:68
+msgid "Locale"
+msgstr "Lokalizace"
+
+#: includes/general/class-toret-manager-i18n.php:69
+msgid "Billing First Name"
+msgstr "Fakturační křestní jméno"
+
+#: includes/general/class-toret-manager-i18n.php:70
+msgid "Billing Last Name"
+msgstr "Příjmení fakturace"
+
+#: includes/general/class-toret-manager-i18n.php:71
+msgid "Billing Address 1"
+msgstr "Fakturační adresa 1"
+
+#: includes/general/class-toret-manager-i18n.php:72
+msgid "Billing Address 2"
+msgstr "Fakturační adresa 2"
+
+#: includes/general/class-toret-manager-i18n.php:73
+msgid "Billing City"
+msgstr "Fakturační město"
+
+#: includes/general/class-toret-manager-i18n.php:74
+msgid "Billing Zip"
+msgstr "Fakturační PSČ"
+
+#: includes/general/class-toret-manager-i18n.php:75
+msgid "Billing Country"
+msgstr "Fakturační země"
+
+#: includes/general/class-toret-manager-i18n.php:76
+msgid "Billing Email"
+msgstr "Fakturační e-mail"
+
+#: includes/general/class-toret-manager-i18n.php:77
+msgid "Billing Phone"
+msgstr "Fakturační telefon"
+
+#: includes/general/class-toret-manager-i18n.php:78
+msgid "Shipping First Name"
+msgstr "Doručení křestní jméno"
+
+#: includes/general/class-toret-manager-i18n.php:79
+msgid "Shipping Last Name"
+msgstr "Doručení příjmení"
+
+#: includes/general/class-toret-manager-i18n.php:80
+#: includes/general/class-toret-manager-i18n.php:110
+msgid "Shipping Address 1"
+msgstr "Doručovací adresa 1"
+
+#: includes/general/class-toret-manager-i18n.php:81
+msgid "Shipping Address 2"
+msgstr "Doručovací adresa 2"
+
+#: includes/general/class-toret-manager-i18n.php:82
+msgid "Shipping City"
+msgstr "Doručovací město"
+
+#: includes/general/class-toret-manager-i18n.php:83
+msgid "Shipping Zip"
+msgstr "Doručovací PSČ"
+
+#: includes/general/class-toret-manager-i18n.php:84
+msgid "Shipping Country"
+msgstr "Země doručení"
+
+#: includes/general/class-toret-manager-i18n.php:85
+msgid "Shipping Email"
+msgstr "Doručovací e-mail"
+
+#: includes/general/class-toret-manager-i18n.php:86
+msgid "Shipping Phone"
+msgstr "Doručovací telefon"
+
+#: includes/general/class-toret-manager-i18n.php:87
+msgid "Order ID"
+msgstr "ID objednávky"
+
+#: includes/general/class-toret-manager-i18n.php:88
+msgid "Order Status"
+msgstr "Stav objednávky"
+
+#: includes/general/class-toret-manager-i18n.php:89
+msgid "Order Title"
+msgstr "Název objednávky"
+
+#: includes/general/class-toret-manager-i18n.php:90
+msgid "Order Comment Status"
+msgstr "Stav komentáře objednávky"
+
+#: includes/general/class-toret-manager-i18n.php:91
+msgid "Order Password"
+msgstr "Heslo objednávky"
+
+#: includes/general/class-toret-manager-i18n.php:92
+msgid "Order Name"
+msgstr "Jméno objednávky"
+
+#: includes/general/class-toret-manager-i18n.php:93
+msgid "Order Comments Count"
+msgstr "Počet komentářů k objednávce"
+
+#: includes/general/class-toret-manager-i18n.php:94
+msgid "Order Customer ID"
+msgstr "ID zákazníka objednávky"
+
+#: includes/general/class-toret-manager-i18n.php:95
+msgid "Customer Internal ID"
+msgstr "Interní ID zákazníka"
+
+#: includes/general/class-toret-manager-i18n.php:96
+msgid "Order Download Permissions"
+msgstr "Oprávnění ke stažení objednávky"
+
+#: includes/general/class-toret-manager-i18n.php:97
+msgid "Order Stock Reduced"
+msgstr "Snižení zásob objednávky"
+
+#: includes/general/class-toret-manager-i18n.php:98
+msgid "Order Billing Country"
+msgstr "Fakturační země objednávky"
+
+#: includes/general/class-toret-manager-i18n.php:99
+msgid "Order Shipping Country"
+msgstr "Země doručení objednávky"
+
+#: includes/general/class-toret-manager-i18n.php:100
+msgid "Order Currency"
+msgstr "Měna objednávky"
+
+#: includes/general/class-toret-manager-i18n.php:101
+msgid "Order Cart Discount"
+msgstr "Sleva na objednávku v košíku"
+
+#: includes/general/class-toret-manager-i18n.php:102
+msgid "Order Cart Discount Tax"
+msgstr "Daň slevy na objednávku v košíku"
+
+#: includes/general/class-toret-manager-i18n.php:103
+msgid "Order Shipping"
+msgstr "Doprava objednávky"
+
+#: includes/general/class-toret-manager-i18n.php:104
+msgid "Order Shipping Tax"
+msgstr "Daň dopravy objednávky"
+
+#: includes/general/class-toret-manager-i18n.php:105
+msgid "Order Tax"
+msgstr "Daň z rezervace"
+
+#: includes/general/class-toret-manager-i18n.php:106
+msgid "Order Total"
+msgstr "Celková cena objednávky"
+
+#: includes/general/class-toret-manager-i18n.php:107
+msgid "Price Included Tax"
+msgstr "Cena včetně daně"
+
+#: includes/general/class-toret-manager-i18n.php:108
+msgid "Billing Address Index"
+msgstr "Rejstřík fakturační adresy"
+
+#: includes/general/class-toret-manager-i18n.php:109
+msgid "Shipping Address Index"
+msgstr "Rejstřík doručovací adresy"
+
+#: includes/general/class-toret-manager-i18n.php:111
+msgid "Payment Method"
+msgstr "Způsob platby"
+
+#: includes/general/class-toret-manager-i18n.php:112
+msgid "Payment Method Title"
+msgstr "Název způsobu platby"
+
+#: includes/general/class-toret-manager-i18n.php:113
+msgid "Internal ID"
+msgstr "Interní ID"
+
+#: includes/general/class-toret-manager-i18n.php:114
+msgid "Category ID"
+msgstr "ID kategorie"
+
+#: includes/general/class-toret-manager-i18n.php:116
+msgid "Slug"
+msgstr "Slug"
+
+#: includes/general/class-toret-manager-i18n.php:117
+msgid "Description"
+msgstr "Popisek"
+
+#: includes/general/class-toret-manager-i18n.php:118
+msgid "Product ID"
+msgstr "ID produktu"
+
+#: includes/general/class-toret-manager-i18n.php:119
+msgid "Product Type"
+msgstr "Typ produktů"
+
+#: includes/general/class-toret-manager-i18n.php:120
+msgid "Price"
+msgstr "Cena"
+
+#: includes/general/class-toret-manager-i18n.php:121
+msgid "Price VAT"
+msgstr "DPH ceny"
+
+#: includes/general/class-toret-manager-i18n.php:122
+msgid "Currency"
+msgstr "Měna"
+
+#: includes/general/class-toret-manager-i18n.php:123
+msgid "VAT"
+msgstr "DPH"
+
+#: includes/general/class-toret-manager-i18n.php:124
+msgid "Stock Status"
+msgstr "Stav skladu"
+
+#: includes/general/class-toret-manager-i18n.php:125
+msgid "Short Description"
+msgstr "Krátký popis"
+
+#: includes/general/class-toret-manager-i18n.php:126
+msgid "Manage Stock"
+msgstr "Správa skladu"
+
+#: includes/general/class-toret-manager-i18n.php:127
+msgid "SKU"
+msgstr "SKU"
+
+#: includes/general/class-toret-manager-i18n.php:128
+msgid "Sale Price"
+msgstr "Cena po slevě"
+
+#: includes/general/class-toret-manager-i18n.php:129
+msgid "Sale Price VAT"
+msgstr "DPH ceny ve slevě"
+
+#: includes/general/class-toret-manager-i18n.php:130
+msgid "Sale From Date"
+msgstr "Datum od ceny ve slevě"
+
+#: includes/general/class-toret-manager-i18n.php:131
+msgid "Sale To Date"
+msgstr "Datum do ceny ve slevě"
+
+#: includes/general/class-toret-manager-i18n.php:132
+msgid "Total Sales"
+msgstr "Celkem prodejů"
+
+#: includes/general/class-toret-manager-i18n.php:133
+msgid "Tax Status"
+msgstr "Stav daně"
+
+#: includes/general/class-toret-manager-i18n.php:134
+msgid "Tax Class"
+msgstr "Třída daně"
+
+#: includes/general/class-toret-manager-i18n.php:135
+msgid "Shipping Class"
+msgstr "Třída doručení"
+
+#: includes/general/class-toret-manager-i18n.php:136
+msgid "Backorders"
+msgstr "Zpětné objednávky"
+
+#: includes/general/class-toret-manager-i18n.php:137
+msgid "Backorders Notify"
+msgstr "Notifikace zpětné objednávky"
+
+#: includes/general/class-toret-manager-i18n.php:138
+msgid "Low Stock Amount"
+msgstr "Množství nízkého skladu"
+
+#: includes/general/class-toret-manager-i18n.php:139
+msgid "Sold Individually"
+msgstr "Prodává se jednotlivě"
+
+#: includes/general/class-toret-manager-i18n.php:140
+msgid "Virtual"
+msgstr "Virtuální"
+
+#: includes/general/class-toret-manager-i18n.php:141
+msgid "Downloadable"
+msgstr "Stažitelné"
+
+#: includes/general/class-toret-manager-i18n.php:142
+msgid "Files"
+msgstr "Soubory"
+
+#: includes/general/class-toret-manager-i18n.php:143
+msgid "Download Limit"
+msgstr "Limit stažení"
+
+#: includes/general/class-toret-manager-i18n.php:144
+msgid "Download Expiry"
+msgstr "Expirace stahování"
+
+#: includes/general/class-toret-manager-i18n.php:145
+msgid "Product Image Gallery"
+msgstr "Galerie obrázků produktu"
+
+#: includes/general/class-toret-manager-i18n.php:146
+msgid "Allow Review"
+msgstr "Povolit recenze"
+
+#: includes/general/class-toret-manager-i18n.php:147
+msgid "Average Rating"
+msgstr "Průměrné hodnocení"
+
+#: includes/general/class-toret-manager-i18n.php:148
+msgid "Rating Count"
+msgstr "Počet hodnocení"
+
+#: includes/general/class-toret-manager-i18n.php:149
+msgid "Review Count"
+msgstr "Počet recenzí"
+
+#: includes/general/class-toret-manager-i18n.php:150
+msgid "Visibility"
+msgstr "Viditelnost"
+
+#: includes/general/class-toret-manager-i18n.php:151
+msgid "EAN"
+msgstr "EAN"
+
+#: includes/general/class-toret-manager-i18n.php:152
+msgid "ISBN"
+msgstr "ISBN"
+
+#: includes/general/class-toret-manager-i18n.php:153
+msgid "GTIN"
+msgstr "GTIN"
+
+#: includes/general/class-toret-manager-i18n.php:154
+msgid "Weight"
+msgstr "Hmotnost"
+
+#: includes/general/class-toret-manager-i18n.php:155
+msgid "Length"
+msgstr "Délka"
+
+#: includes/general/class-toret-manager-i18n.php:156
+msgid "Width"
+msgstr "Šířka"
+
+#: includes/general/class-toret-manager-i18n.php:157
+msgid "Height"
+msgstr "Výška"
+
+#: includes/general/class-toret-manager-i18n.php:158
+msgid "Weight Unit"
+msgstr "Jednotka hmotnosti"
+
+#: includes/general/class-toret-manager-i18n.php:159
+msgid "Dimension Unit"
+msgstr "Jednotka rozměru"
+
+#: includes/general/class-toret-manager-i18n.php:160
+msgid "Attributes"
+msgstr "Atributy"
+
+#: includes/general/class-toret-manager-i18n.php:161
+msgid "Purchase Note"
+msgstr "Poznámka k nákupu"
+
+#: includes/general/class-toret-manager-i18n.php:162
+msgid "Menu Order"
+msgstr "Řazení menu"
+
+#: includes/general/class-toret-manager-i18n.php:163
+msgid "Cross Sell"
+msgstr "Doplňkový prodej"
+
+#: includes/general/class-toret-manager-i18n.php:164
+msgid "Cross Sell Internal"
+msgstr "Interní doplňkový prodej"
+
+#: includes/general/class-toret-manager-i18n.php:165
+msgid "Up Sell"
+msgstr "Navyšovací prodej"
+
+#: includes/general/class-toret-manager-i18n.php:166
+msgid "Up Sell Internal"
+msgstr "Interní navyšovací prodej"
+
+#: includes/general/class-toret-manager-i18n.php:167
+msgid "Order Download Permission"
+msgstr "Objednávka povolení ke stažení"
+
+#: includes/general/class-toret-manager-i18n.php:168
+msgid "Comment Author URL"
+msgstr "URL autora komentáře"
+
+#: includes/general/class-toret-manager-i18n.php:169
+msgid "Comment Date"
+msgstr "Datum komentáře"
+
+#: includes/general/class-toret-manager-i18n.php:170
+msgid "Comment Approved"
+msgstr "Schválený komentář"
+
+#: includes/general/class-toret-manager-i18n.php:171
+msgid "Comment User ID"
+msgstr "ID uživatele komentáře"
+
+#: includes/general/class-toret-manager-i18n.php:172
+msgid "Product Rating"
+msgstr "Hodnocení produktu"
+
+#: includes/general/class-toret-manager-i18n.php:173
+msgid "Verified"
+msgstr "Potvrzeno"
+
+#: includes/general/class-toret-manager-i18n.php:174
+msgid "Sync Stock from Web to Cloud"
+msgstr "Synchronizovat sklad z webu do cloudu"
+
+#: includes/general/class-toret-manager-i18n.php:175
+msgid "Sync Stock from Cloud to Web"
+msgstr "Synchronizovat sklad z cloudu do webu"
+
+#: includes/general/class-toret-manager-i18n.php:176
+msgid "Shipping order lines"
+msgstr "Položky objednávky - doprava"
+
+#: includes/general/class-toret-manager-i18n.php:177
+msgid "Coupon order lines"
+msgstr "Položky objednávky - kupón"
+
+#: includes/general/class-toret-manager-i18n.php:178
+msgid "Item order lines"
+msgstr "Položky objednávky"
+
+#: includes/general/class-toret-manager-i18n.php:179
+msgid "Fee order lines"
+msgstr "Položky objednávky - poplatek"
+
+#: includes/general/class-toret-manager-i18n.php:180
+msgid "Date Created"
+msgstr "Datum vytvoření"
+
+#: includes/general/class-toret-manager-i18n.php:181
+msgid "Date Edited"
+msgstr "Datum editace"
+
+#: includes/general/class-toret-manager-i18n.php:182
+msgid "Order Comments"
+msgstr "Komentáře objednávky"
+
+#: includes/general/class-toret-manager-i18n.php:183
+msgid "Customer Note"
+msgstr "Poznámka zákazníka"
+
+#: includes/general/class-toret-manager-i18n.php:184
+msgid "Post comments"
+msgstr "Komentáře příspěvků"
+
+#: includes/general/class-toret-manager-i18n.php:185
+msgid "Product reviews"
+msgstr "Recenze produktů"
+
+#: includes/general/class-toret-manager-i18n.php:186
+msgid "Linked Products"
+msgstr "Provázané produkty"
+
+#: includes/general/class-toret-manager-i18n.php:187
+msgid "Product URL"
+msgstr "URL adresa produktu"
+
+#: includes/general/class-toret-manager-i18n.php:188
+msgid "Button text"
+msgstr "Text tlačítka"
+
+#: includes/general/class-toret-manager-i18n.php:189
+msgid "Sticky"
+msgstr "Připnuté"
+
+#: includes/general/class-toret-manager-i18n.php:190
+msgid "WooCommerce unique ID"
+msgstr "Unikátní WooCommerce ID"
+
+#: includes/libraries/plugin-update-checker-master/Puc/v5p4/Plugin/Ui.php:56
+#: includes/plugin-update-checker-master/Puc/v5p1/Plugin/Ui.php:56
+msgid "View details"
+msgstr "Zobrazit podrobnosti"
+
+#: includes/libraries/plugin-update-checker-master/Puc/v5p4/Plugin/Ui.php:79
+#: includes/plugin-update-checker-master/Puc/v5p1/Plugin/Ui.php:79
+#, php-format
+msgid "More information about %s"
+msgstr "Více informací o %s"
+
+#: includes/libraries/plugin-update-checker-master/Puc/v5p4/Plugin/Ui.php:130
+#: includes/plugin-update-checker-master/Puc/v5p1/Plugin/Ui.php:130
+msgid "Check for updates"
+msgstr "Zkontrolovat aktualizace"
+
+#: includes/libraries/plugin-update-checker-master/Puc/v5p4/Plugin/Ui.php:217
+#: includes/plugin-update-checker-master/Puc/v5p1/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr "Plugin %s je aktuální."
+
+#: includes/libraries/plugin-update-checker-master/Puc/v5p4/Plugin/Ui.php:219
+#: includes/plugin-update-checker-master/Puc/v5p1/Plugin/Ui.php:219
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr "K dispozici je nová verze pluginu %s."
+
+#: includes/libraries/plugin-update-checker-master/Puc/v5p4/Plugin/Ui.php:221
+#: includes/plugin-update-checker-master/Puc/v5p1/Plugin/Ui.php:221
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr "Nelze určit, zda jsou pro %s dostupné aktualizace."
+
+#: includes/libraries/plugin-update-checker-master/Puc/v5p4/Plugin/Ui.php:227
+#: includes/plugin-update-checker-master/Puc/v5p1/Plugin/Ui.php:227
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "Neznámý stav kontroly aktualizací \"%s\""
+
+#: includes/libraries/plugin-update-checker-master/Puc/v5p4/Vcs/PluginUpdateChecker.php:113
+#: includes/plugin-update-checker-master/Puc/v5p1/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr "Není k dispozici žádný seznam změn."
+
+#: includes/modules/class-toret-manager-module-general.php:103
+msgid "Failed to delete item"
+msgstr "Nepodařilo se odstranit položku"
+
+#: includes/modules/class-toret-manager-module-general.php:113
+msgid "Item deleted"
+msgstr "Položka odstraněna"
+
+#: includes/modules/class-toret-manager-module-general.php:190
+#: includes/modules/class-toret-manager-module-order.php:650
+#: includes/modules/class-toret-manager-module-post.php:520
+#: includes/modules/class-toret-manager-module-product-attributes.php:408
+#: includes/modules/class-toret-manager-module-product.php:976
+#: includes/modules/class-toret-manager-module-review.php:345
+#: includes/modules/class-toret-manager-module-review.php:372
+#: includes/modules/class-toret-manager-module-term.php:592
+#: includes/modules/class-toret-manager-module-user.php:419
+msgid "Item updated"
+msgstr "Položka aktualizována"
+
+#: includes/modules/class-toret-manager-module-general.php:190
+#: includes/modules/class-toret-manager-module-general.php:229
+#: includes/modules/class-toret-manager-module-order.php:650
+#: includes/modules/class-toret-manager-module-post.php:520
+#: includes/modules/class-toret-manager-module-product-attributes.php:160
+#: includes/modules/class-toret-manager-module-product-attributes.php:203
+#: includes/modules/class-toret-manager-module-product-attributes.php:436
+#: includes/modules/class-toret-manager-module-product.php:976
+#: includes/modules/class-toret-manager-module-review.php:372
+#: includes/modules/class-toret-manager-module-term.php:592
+#: includes/modules/class-toret-manager-module-user.php:419
+msgid "Item created"
+msgstr "Položka vytvořená"
+
+#: includes/modules/class-toret-manager-module-general.php:216
+msgid "Failed to update item. Trying to create it."
+msgstr "Nepodařilo se aktualizovat položku. Při pokusu o její vytvoření."
+
+#: includes/modules/class-toret-manager-module-general.php:247
+msgid "Failed to create item after failed updated."
+msgstr "Nepodařilo se vytvořit položku po neúspěšné aktualizaci."
+
+#: includes/modules/class-toret-manager-module-general.php:259
+msgid "Failed to update item."
+msgstr "Nepodařilo se aktualizovat položku."
+
+#: includes/modules/class-toret-manager-module-general.php:259
+msgid "Failed to create item."
+msgstr "Nepodařilo se vytvořit položku."
+
+#: includes/modules/class-toret-manager-module-general.php:338
+#: includes/modules/class-toret-manager-module-product-attributes.php:323
+#: includes/modules/class-toret-manager-module-term.php:294
+msgid "Notification - local item deleted"
+msgstr "Oznámení - místní položka smazána"
+
+#: includes/modules/class-toret-manager-module-general.php:348
+#: includes/modules/class-toret-manager-module-product-attributes.php:331
+#: includes/modules/class-toret-manager-module-product-attributes.php:340
+#: includes/modules/class-toret-manager-module-term.php:305
+msgid "Notification - failed to delete local item"
+msgstr "Oznámení - nepodařilo se odstranit místní položku"
+
+#: includes/modules/class-toret-manager-module-general.php:383
+#: includes/modules/class-toret-manager-module-general.php:411
+msgid "Associated item - "
+msgstr "Související položka - "
+
+#: includes/modules/class-toret-manager-module-order.php:351
+#: includes/modules/class-toret-manager-module-post.php:327
+#: includes/modules/class-toret-manager-module-product-attributes.php:450
+#: includes/modules/class-toret-manager-module-product.php:567
+#: includes/modules/class-toret-manager-module-product.php:714
+#: includes/modules/class-toret-manager-module-product.php:733
+#: includes/modules/class-toret-manager-module-review.php:336
+#: includes/modules/class-toret-manager-module-review.php:361
+#: includes/modules/class-toret-manager-module-term.php:613
+#: includes/modules/class-toret-manager-module-term.php:631
+#: includes/modules/class-toret-manager-module-user.php:257
+#: includes/modules/class-toret-manager-module-user.php:272
+msgid "Failed to update item"
+msgstr "Nepodařilo se aktualizovat položku"
+
+#: includes/modules/class-toret-manager-module-order.php:351
+#: includes/modules/class-toret-manager-module-post.php:327
+#: includes/modules/class-toret-manager-module-product-attributes.php:173
+#: includes/modules/class-toret-manager-module-product-attributes.php:216
+#: includes/modules/class-toret-manager-module-product-attributes.php:450
+#: includes/modules/class-toret-manager-module-product.php:567
+#: includes/modules/class-toret-manager-module-product.php:714
+#: includes/modules/class-toret-manager-module-product.php:733
+#: includes/modules/class-toret-manager-module-review.php:361
+#: includes/modules/class-toret-manager-module-term.php:613
+#: includes/modules/class-toret-manager-module-term.php:631
+#: includes/modules/class-toret-manager-module-user.php:257
+#: includes/modules/class-toret-manager-module-user.php:272
+msgid "Failed to create item"
+msgstr "Nepodařilo se vytvořit položku"
+
+#: includes/modules/class-toret-manager-module-stock.php:98
+msgid "Stock set"
+msgstr "Stav skladu"
+
+#: includes/modules/class-toret-manager-module-stock.php:106
+msgid "Failed to set stock"
+msgstr "Nepodařilo se nastavit zásoby"
+
+#. Plugin URI of the plugin/theme
+msgid "https://toret.net"
+msgstr "https://toret.cz"
+
+#. Description of the plugin/theme
+msgid "Connects WordPress and WooCommerce website with Toret.net."
+msgstr "Propojuje WordPress a WooCommerce webové stránky s Toret.net."
+
+#. Author of the plugin/theme
+msgid "Toret"
+msgstr "Toret"
+
+#. Author URI of the plugin/theme
+msgid "https://www.toret.net/cs/kontakt/"
+msgstr "https://www.toret.net/"
+
+#~ msgid "Number of notifications: "
+#~ msgstr "Počet notifikací: "
+
+#~ msgid "(incl. VAT)"
+#~ msgstr "(vč. DPH)"
+
+#~ msgid "(excl. VAT)"
+#~ msgstr "(bez DPH)"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "Associatd item uploaded"
+#~ msgstr "Související položka nahraná"
+
+#~ msgid "Failed to upload associatd item"
+#~ msgstr "Nepodařilo se nahrát související položku"
+
+#~ msgid "Categories and Tags"
+#~ msgstr "Kategorie a Štítky"
+
+#~ msgid ""
+#~ "Automatically pairs and downloads related items such as comments, posts, "
+#~ "and promotional products."
+#~ msgstr ""
+#~ "Automaticky spáruje a stáhne související položky, jako jsou komentáře, "
+#~ "příspěvky a produkty."
+
+#~ msgid "Books"
+#~ msgstr "Knihy"
+
+#~ msgid "Genre"
+#~ msgstr "Žánr"
+
+#~ msgid "Installed plugins"
+#~ msgstr "Nainstalované pluginy"
+
+#~ msgid "Plugin name"
+#~ msgstr "Jméno pluginu"
+
+#~ msgid "Version"
+#~ msgstr "Verze"
+
+#~ msgid "Current version"
+#~ msgstr "Aktuální verze"
+
+#~ msgid "Licence"
+#~ msgstr "Licence"
+
+#~ msgid "Yes"
+#~ msgstr "Ano"
+
+#~ msgid "No"
+#~ msgstr "Ne"
+
+#~ msgid "Changelog"
+#~ msgstr "Changelog"
+
+#~ msgid "VIEW MY ACCOUNT"
+#~ msgstr "ZOBRAZIT MŮJ ÚČET"
+
+#~ msgid "CONTACT SUPPORT"
+#~ msgstr "KONTAKTOVAT PODPORU"
+
+#~ msgid "Boost your e-shop with our other plugins"
+#~ msgstr "Vylepšete si e-shop pomocí našich dalších pluginů"
+
+#~ msgid "BUY&nbsp;PLUGIN"
+#~ msgstr "KOUPIT&nbsp;PLUGIN"

@@ -1,0 +1,550 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/**
+* Admin menu Toret plugins item
+ */
+@font-face {
+    font-family: 'toret-font';
+    src: url('fonts/toret-font.eot?5kiojs');
+    src: url('fonts/toret-font.eot?5kiojs#iefix') format('embedded-opentype'), url('fonts/toret-font.ttf?5kiojs') format('truetype'), url('fonts/toret-font.woff?5kiojs') format('woff'), url('fonts/toret-font.svg?5kiojs#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#adminmenu #toplevel_page_toret-plugins .wp-menu-image:before {
+    content: '\e900';
+    font-family: 'toret-font';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.toplevel_page_toret-plugins .wp-menu-image.dashicons-before img {
+    width: 20px;
+}
+
+/**
+* Admin menu page
+ */
+.trman-admin-wrap {
+    margin: 30px;
+}
+
+.trman-admin-body-container input[type=text], .trman-admin-body-container select, .trman-admin-body-container input[type=password], .trman-admin-body-container input[type=email], .trman-admin-body-container input[type=number], .trman-admin-body-container input[type=tel] {
+    width: 100%;
+}
+
+.trman-admin-body-container {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.trman-admin-module-save {
+    margin-top: 20px;
+}
+
+/*
+.trman-admin-container-title-wrap{
+    margin-top: 40px;
+}*/
+
+.trman-admin-body-container h2 {
+    font-size: 24px;
+}
+
+.trman-input-tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.trman-input-tooltip .trman-input-tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.trman-input-tooltip:hover .trman-input-tooltiptext {
+    visibility: visible;
+}
+
+.trman-pag-button {
+    margin-left: 5px !important;
+}
+
+.trman-pag-button-active {
+    background: #00c9a5 !important;
+    color: white !important;
+}
+
+.toret-button{
+    background: #00c9a5 !important;
+    border: none!important;
+}
+
+.toret-button:hover{
+    background: rgb(83, 62, 123) !important;
+}
+
+/*
+
+ */
+#trman-to-top-button {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #00c9a5; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#trman-to-top-button:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/*
+Collapsible
+*/
+.trman_data_collapsible_button {
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 13px;
+}
+
+.trman_data_collapsible_button:hover {
+    background-color: #555;
+}
+
+.trman_data_collapsible {
+    padding: 10px;
+    /*display: none;*/
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+/**
+*
+ */
+/*.trman-property-checkboxes-wrap {
+    display: none;
+}*/
+
+/**
+*
+ */
+.trman-properties {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 3px;
+    margin-top: 3px;
+}
+
+.trman-admin-container-title-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trman-admin-container-title-wrap.credentials {
+    display: block;
+}
+
+.trman-admin-license-wrap {
+    display: flex;
+}
+
+.trman-check-license {
+    margin-bottom: 0 !important;
+}
+
+.handlediv {
+    content: "\f142" !important;
+}
+
+.dashicons-controls-play {
+    float: right;
+    transform: rotate(90deg);
+}
+
+.dashicons-controls-play-rotated {
+    float: right;
+    transform: rotate(-90deg);
+}
+
+/* Admin log table */
+.trman-log-row-wrap {
+    font-size: 14px;
+    margin-top: 10px;
+    background: white;
+    padding: 10px;
+}
+
+.trman-log-table-header-row {
+    color: #474747;
+    font-weight: 700;
+}
+
+.trman-log-line-ok {
+    border-bottom: 1px solid green;
+}
+
+.trman-log-line-warning {
+    border-bottom: 1px solid darkorange;
+}
+
+.trman-log-line-info {
+    border-bottom: 1px solid blue;
+}
+
+.trman-log-line-error {
+    border-bottom: 1px solid red;
+}
+
+.trman-log-table-footer-row {
+    word-wrap: break-word;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.trman-admin-log-footer-wrap {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trman-admin-log-wrap {
+    margin: 20px 20px 20px 10px;
+}
+
+
+/**
+* Toggle switch
+ */
+.trman-toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.trman-toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.trman-toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.trman-toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .trman-toggle-slider {
+    background-color: #2b1662;
+}
+
+input:focus + .trman-toggle-slider {
+    box-shadow: 0 0 1px #2b1662;
+}
+
+input:checked + .trman-toggle-slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.trman-toggle-slider.trman-toggle-slider-round {
+    border-radius: 34px;
+}
+
+.trman-toggle-slider.trman-toggle-slider-round:before {
+    border-radius: 50%;
+}
+
+.trman-properties-cell {
+    padding: 0 !important;
+}
+
+.trman-log-table-header-row {
+    line-height: 24px;
+}
+
+
+.trman-admin-module-navbar {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.trman-admin-module-navbar .trman-admin-module-anchor {
+    margin: 5px;
+    border: none;
+}
+
+.active-module{
+    background: #381f62!important;
+    color: white!important;
+}
+
+
+.trman-admin-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    float: left;
+    vertical-align: middle;
+}
+
+.trman-admin-table tr {
+    height: 43px;
+}
+
+.trman-admin-table tr th {
+    color: #000000;
+    padding: 6px 12px;
+    border: solid 1px #ddd;
+    text-align: start;
+    vertical-align: middle;
+}
+
+.trman-admin-table tr td {
+    padding: 6px 12px;
+    border: solid 1px #ddd;
+    background-color: #ffffff;
+}
+
+.trman-admin-table tr td.td_center {
+    text-align: center;
+}
+
+.trman-admin-option-img{
+    width: 25px;
+}
+
+.trman-cell-tooltip{
+    display: flex;
+    flex-direction: column;
+}
+
+.trman-input-tooltiptext{
+    font-style: italic;
+    font-weight: 400;
+}
+
+.trman-admin-option-header {
+    display: inline-flex;
+    gap: 5px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.trman-admin-table tr th {
+    width: 25%;
+    font-weight: 500;
+}
+
+.trman-admin-table tr td input+label {
+    margin-right: 10px;
+}
+
+.toret-net-verify {
+    color: orange;
+    font-weight: 500;
+}
+
+.toret-net-fail {
+    color: red;
+    font-weight: 500;
+}
+
+.toret-net-ok {
+    color: green;
+    font-weight: 500;
+}
+
+.trman-admin-tools-table{
+    float: none;
+}
+
+#woocommerce-product-data ul.wc-tabs li.trman_options.misha_tab a:before{
+    content: "\f13b";
+}
+
+.trman-form-checkbox-field{
+    float: left;
+}
+
+
+/**
+Toret admin page
+ */
+
+.toret-plugins-admin-img {
+    max-width: 1000px;
+    width: 100%;
+}
+.toret-admin-buttons {
+    display: flex;
+    margin-top: 25px;
+}
+.toret-admin-buttons a, #toret-copy {
+    color: white;
+    background-color: #fe7524;
+    padding: 20px 35px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.toret-admin-buttons a:last-child {
+    background-color: #2b1662;
+}
+.toret-admin-buttons a:hover   {
+    opacity: 0.7;
+}
+.toret-plugins-admin-table {
+    background-color: white;
+    padding: 25px;
+    margin: 25px 0;
+}
+.toret-plugins-admin-table h2 {
+    color: #fe7524;
+    margin-top: 0;
+}
+.toret-plugins-admin-table table {
+    border: 2px solid #f8f7fc;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.toret-plugins-admin-table table thead {
+    background-color: #f8f7fc;
+}
+.toret-plugins-admin-table table tr {
+    border-bottom: 2px solid #f8f7fc;
+}
+.toret-plugins-admin-table table th, .toret-plugins-admin-table table td {
+    padding: 15px;
+    text-align: left;
+}
+.toret-plugins-admin-buy {
+    color: white;
+    padding: 8px 15px;
+    background-color: #2b1662;
+    text-decoration: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.toret-plugins-admin-buy:hover {
+    color:white;
+    background-color: #fe7524;
+}
+.toret-plugins-admin-table .toret-plugins-admin-last {
+    text-align: right;
+}
+.toret-plugins-admin-link {
+    color: #fe7524;
+}
+.toret-plugins-admin-link:hover {
+    color: #2b1662;
+}
+#toret-plugins-admin-diag {
+    display:none;
+}
+
+#toret-copy {
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#toret-copy:hover {
+    background: #2b1662;
+}
+
+
+
+/**
+* Save option overlay
+ */
+#trmanLoadingBar {
+    width: 100%; /* Zobrazí se na šířku rodiče */
+    height: 10px;
+    background-color: #e0e0e0; /* Světle šedé pozadí */
+    border-radius: 5px;
+    overflow: hidden; /* Skryje přesahující části */
+    position: relative;
+    margin-top: 20px;
+}
+
+#trmanLoadingSpinner {
+    width: 10%; /* Šířka spinneru je 30% rodiče */
+    height: 100%;
+    background-color: #a2cbfc; /* Modrý pruh */
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: trmanLoadingAnimation 1.5s infinite linear; /* Nekonečná animace */
+}
+
+/* Definice animace pro horizontální spinner */
+@keyframes trmanLoadingAnimation {
+    0% {
+        left: -30%; /* Start mimo levou stranu */
+    }
+    50% {
+        left: 100%; /* Přejde přes celý pruh */
+    }
+    100% {
+        left: -30%; /* Vrátí se na začátek */
+    }
+}
